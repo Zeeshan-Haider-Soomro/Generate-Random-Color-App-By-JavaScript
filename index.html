@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colorGenerator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main-heading">
+        <h1 class="heading">Color Generator App</h1>
+    </div>
+
+    <div class="main-div">
+        <div id="platlate-1" class="color"><p onclick="copycode('code-1')" id="code-1" class="colorcode"></p></div>
+        <div id="platlate-2" class="color"><p onclick="copycode('code-2')" id="code-2" class="colorcode"></p></div>
+        <div id="platlate-3" class="color"><p onclick="copycode('code-3')" id="code-3" class="colorcode"></p></div>
+        <div id="platlate-4" class="color"><p onclick="copycode('code-4')" id="code-4" class="colorcode"></p></div>
+        <div id="platlate-5" class="color"><p onclick="copycode('code-5')" id="code-5" class="colorcode"></p></div>
+    </div>
+    <div class="container">
+        <button onclick="generateColor()" class="button">Generate Color</button>
+    </div>
+
+    <div class="footer">
+        <footer id="footer">Copyright © <span id="yearChanger"></span> Zeeshan Haider Soomro. All Rights Reseved.</footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js"></script>
+</body>
+</html>
