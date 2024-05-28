@@ -36,6 +36,8 @@ body{
 }
 .colorcode{
     cursor: pointer;
+    font-size: 30px;
+    
 }
 #platlate-1{
     background-color: red;
